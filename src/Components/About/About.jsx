@@ -1,7 +1,6 @@
 import styles from "./About.module.scss";
 
 import Person from "../Person/Person";
-import team from "../../Data/Team1";
 
 const About = ({ team }) => {
   return (
