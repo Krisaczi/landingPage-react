@@ -1,0 +1,44 @@
+@import "../../variables.scss";
+.person {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+  &:nth-child(even) {
+    flex-flow: row-reverse;
+    text-align: right;
+
+    .personDescription {
+      text-align: right;
+    }
+  }
+}
+
+.personDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.picture {
+  width: 22%;
+  min-width: 22%;
+  aspect-ratio: 1;
+  margin-bottom: 0;
+  background-color: darkcyan;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.personName {
+  line-height: $lineHeight;
+  margin-bottom: 25px;
+}
+.personDescription {
+  margin-bottom: 0;
+  text-align: justify;
+  font-size: $fontSize-basic;
+  font-weight: $fontLigh;
+  color: $fontFour;
+  line-height: $lineHeight;
+}

@@ -1,0 +1,45 @@
+@import "../../variables.scss";
+.container {
+  height: 100vh;
+  background-image: url(../../Images/main-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landingPageWrapper {
+  @include wrapper;
+  justify-content: center;
+  height: 100vh;
+}
+.landingPageTitle {
+  color: $fontPrimary;
+  width: 577px;
+  margin-bottom: 50px;
+  font-size: calc($fontSize-basic * 1.75);
+  line-height: calc($lineHeight * 2);
+}
+.landingPageContent {
+  color: $fontPrimary;
+  margin-bottom: 50px;
+  font-size: $fontSize-basic;
+  font-weight: $fontBold;
+}
+.landingPageLink {
+  border: 2px solid white;
+  color: $fontPrimary;
+  font-weight: $fontBold;
+  text-decoration: none;
+  max-width: 50px;
+  padding: 5px 45px;
+  font-size: $fontSize-basic;
+  border-radius: 2px;
+  transition: 1s;
+}
+
+@media (hover: hover) {
+  .landingPageLink:hover {
+    background-color: $backgroundOne;
+    color: $fontFour;
+    opacity: 0.9;
+  }
+}

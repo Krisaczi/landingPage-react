@@ -1,0 +1,38 @@
+@import "../../variables.scss";
+
+.navigation {
+  background-color: $backgroundTwo;
+  height: 50px;
+  width: 100%;
+}
+.navWrapper {
+  @include wrapper;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: $fontPrimary;
+  font-size: $fontSize-basic;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.navList {
+  display: flex;
+  list-style-type: none;
+  font-size: $fontSize-basic;
+  line-height: $lineHeight;
+  font-weight: $fontLigh;
+  gap: 30px;
+  padding-left: 30px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: $fontPrimary;
+}
+
+.notAllowed {
+  cursor: not-allowed;
+  color: $fontPrimary;
+}

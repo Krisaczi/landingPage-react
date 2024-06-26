@@ -1,0 +1,20 @@
+$fontPrimary: #ffffff;
+$fontSecondary: #f1f1f1;
+$fontThree: #152d41;
+$fontFour: #000000;
+$fontSize-basic: 18px;
+$fontSize-larg: 24px;
+$lineHeight: 21px;
+$fontBold: 700;
+$fontLigh: 400;
+$backgroundOne: #f1f1f1;
+$backgroundTwo: #4e4e4e;
+$backgroundThree: #405d78;
+$active-box: #e07a64;
+
+@mixin wrapper() {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
