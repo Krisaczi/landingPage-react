@@ -10,15 +10,15 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
 
-  .companyName {
-    font-weight: $fontBold;
-    line-height: $lineHeight;
-  }
+.companyName {
+  font-weight: $fontBold;
+  line-height: $lineHeight;
+}
 
-  .icons {
-    display: flex;
-    gap: 15px;
-    font-size: 28px;
-  }
+.icons {
+  display: flex;
+  gap: 15px;
+  font-size: 28px;
 }

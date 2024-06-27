@@ -9,15 +9,13 @@ const About = ({ team }) => {
       <div class="about-content">
         {team.map((member) => {
           return (
-            <>
-              <Person
-                key={member.id}
-                image={member.image}
-                name={member.name}
-                department={member.department}
-                description={member.description}
-              />
-            </>
+            <Person
+              key={member.id}
+              image={member.image}
+              name={member.name}
+              department={member.department}
+              description={member.description}
+            />
           );
         })}
       </div>
