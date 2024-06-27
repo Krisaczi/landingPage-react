@@ -1,8 +1,8 @@
 import styles from "./About.module.scss";
-
 import Person from "../Person/Person";
+import team from "../../data/team";
 
-const About = ({ team }) => {
+const About = () => {
   return (
     <section id="about" className={styles.aboutWrapper}>
       <h2 className={styles.aboutTitle}>Nasi specjaliści</h2>
