@@ -1,1 +1,1 @@
-Please go to this link https://landingpage-rct.netlify.app](https://landingpage-rct.netlify.app
+Please go to this link https://landingpage-rct.netlify.app
